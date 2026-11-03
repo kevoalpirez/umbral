@@ -1,0 +1,13 @@
+UMBRAL — PROTOTIPO 0.1
+
+1. Lee README.md: explica cómo ejecutar y generar la app de escritorio para macOS, Windows y Linux.
+2. Para abrir como aplicación nativa en desarrollo: instala Node.js LTS y Rust, abre Terminal en esta carpeta y ejecuta `npm install` y luego `npm run desktop`.
+3. Para generar un instalador en el sistema actual: ejecuta `npm run build`. Los paquetes aparecen en `src-tauri/target/release/bundle/`.
+4. Al iniciar, selecciona “Crear usuario”; cada perfil tiene su bóveda cifrada separada y una contraseña propia. Los perfiles son locales, no cuentas en línea.
+5. Abre un cuaderno y pulsa + junto a su nombre para crear una página. Usa ⌘K o ＋ Insertar para convertir una línea en tarea, página o bloque.
+6. Abre “Tareas” en la barra izquierda para ver pendientes de todos tus cuadernos, completar tareas y asignar fechas de entrega.
+7. Empieza con notas de prueba. Descarga un respaldo y verifica su restauración.
+8. La interfaz se adapta al teléfono, pero NO hay sincronización ni acceso remoto desde iPhone todavía.
+9. No necesitas comprar ni contratar un servidor para esta etapa.
+
+Contenido: código fuente y guías. No contiene notas personales ni credenciales. Los instaladores todavía deben generarse en cada sistema operativo; no se compilaron aquí.
